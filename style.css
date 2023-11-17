@@ -1,0 +1,53 @@
+section {
+    border: 2px solid red;
+}
+
+.ml {
+    display: flex;
+    align-items: center; /* alinhamento do eixo transversal */
+    justify-content: center; /* alinhamento do eixo principal */
+    gap: 4rem; /* espaçamento entre os elementos do display flex */
+    margin-bottom: 1rem;
+}
+
+.ml img {
+    width: 20rem;
+}
+
+.ml p {
+    width: 30rem;
+    text-align: center;
+}
+
+.soteldo {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; /* alterar a direção do eixo principal*/
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.soteldo img {
+    width: 20rem;
+}
+
+.soteldo p {
+    width: 30rem;
+    text-align: center;
+}
+
+.form {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form {
+    width: 30rem;
+}
